@@ -1377,7 +1377,7 @@ text-decoration: underline;
 
 .hon4 .pikin2{
     align-content: center;
-    width: 50rem;
+    width: 40rem;
     height: 30rem;
     font-size: 1rem;
     margin-right: 3rem;
@@ -1632,20 +1632,21 @@ align-items: start;
 flex-direction: column;
 gap: 2rem;
 width: 90%;
-height: 25rem;
+height: 30rem;
 border-top: 1px solid rgba(0, 145, 255, 0.466);
 border-bottom: 1px solid rgba(0, 145, 255, 0.466);
 }
 
 .foot6 .stay .finish10{
 display: flex;
+align-items: center;
 flex-wrap: wrap;
 padding-top: 2rem;
 }
 
 .foot6 .stay .finish10 a{
-padding: 0 2rem;
-font-size: 2rem;
+padding: 0 1rem;
+font-size: 1.6rem;
 font-weight: 400;
 }
 
