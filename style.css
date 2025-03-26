@@ -1656,3 +1656,576 @@ font-weight: 400;
     color: rgba(255, 255, 255, 0.308);
 }
 }
+
+@media(max-width:450px){
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  background-color: white;
+}
+
+html{
+font-size: 50%;
+}
+
+.head{
+    position: fixed;
+    width: 100vw;
+    height: auto;
+    background-color: rgb(9, 30, 61);
+}
+/* i tried not to use width on head which is used for the flex */
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    z-index: 1;
+}
+
+.head .img{
+    width: 30%;
+}
+
+.head .icon{
+display: flex;
+justify-content: center;
+align-items: center;
+    width:10rem;
+    height: auto;
+    text-align: center;
+}
+
+.head .fa{
+color: white;
+font-size: 5rem;
+padding: 0.5rem;
+margin-right: 2rem;
+}
+
+
+#bars{
+display: flex;
+}
+
+.navbar{
+display: none;
+width: 70rem;
+height: 100%;
+}
+
+.navbar ul{
+display: flex;
+gap: 4rem;
+}
+
+.navbar li{
+list-style-type: none;
+color: #ffff;
+display: flex;
+font-size: 2.3rem;
+font-weight: 600;
+cursor: pointer;
+}
+
+.navbar li:hover{
+text-decoration: underline;
+}
+
+
+.top{
+position: relative;
+top: 80px;
+background-color: rgb(255, 200, 0);
+align-content: center;
+min-width: 100vw;
+min-height: 10vh;
+}
+
+.topin {
+    text-align: center;
+    width: 90%;
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+
+.co{
+    color: rgb(0, 128, 255);
+    font-weight: 800;
+}
+
+.hon{
+display: flex;
+justify-content: center;
+}
+
+.topbody{
+    align-content: end;
+    min-width: 100vw;
+    min-height: 60vh;
+    background-image: url('img/UCI\ Health\ will\ see\ you\ now\ banner\ lg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.expert{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width:100% ;
+height:20vh;
+background-color: rgba(0, 0, 0, 0.283);
+}
+
+.expert h1{
+color: #ffff;
+font-size: 3rem;
+font-family:Georgia, 'Times New Roman', Times, serif;
+padding: 1rem;
+font-weight: 200;
+}
+
+.blue{
+text-decoration: none;
+color: #ffff;
+background-color: rgb(27, 90, 173);
+padding: 2rem 5rem;
+font-size: 1.6rem;
+font-weight: 800;
+border-radius: 0.5rem;
+}
+
+.blue:hover{
+background-color: rgb(39, 100, 179);
+}
+
+
+.hon1{
+    display: flex;
+    justify-content: center;
+    min-width: 100vw;
+    min-height: auto;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.hon1 .chose{
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: column;
+text-align: center;
+padding: 2rem;
+width: 50rem;
+height: 35rem;
+}
+
+.hon1 .chose img{
+width: 20%;
+height: 25%;
+border-radius: 100%;
+}
+
+.hon1 .chose h1{
+font-size: 2rem;
+}
+
+.hon1 .chose p{
+font-size: 2rem;
+}
+
+.hon2{
+min-width: 100vw;
+min-height: auto;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+align-items: end;
+font-weight: 800;
+margin: 4rem 0;
+}
+
+.hon2 .chose1{
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: column;
+width: 50rem;
+height: 70rem;
+border-radius: 2rem;
+background: rgba(255, 255, 255, 0.258);
+}
+
+.buz{
+width: 100%;
+text-align: center;
+}
+
+.buz1{
+width: 60%;
+text-align: center;
+}
+
+
+.hon2 h1{
+font-size: 3rem;
+font-weight: 800;
+margin: 2rem 0;
+}
+
+.hon2 .pikin{
+display: flex;
+justify-content: center;
+align-items: start;
+flex-direction: column;
+gap: 2rem;
+width: 50rem;
+height: 25rem;
+}
+
+.hon2 .img1, .hon2 .img2{
+align-content: center;
+height: 50rem;
+width: 50rem;
+}
+
+.hon2 .img1{
+background-image: url('img/17_licexample1.png');
+background-position: center;
+border-radius: 1rem;
+background-size: cover;
+}
+
+.hon2 .img2{
+background-image: url('img/LCexample1.png');
+background-position: center;
+border-radius: 1rem;
+background-size: cover;
+}
+
+.hon2 .pikin .lu1{
+text-decoration: none;
+color: rgb(27, 90, 173);
+font-size: 2rem;
+}
+
+.hon2 .pikin{
+font-size: 1.5rem;
+}
+
+.hon2 .pikin .lue{
+font-size: 1.5rem;
+font-weight: 500;
+}
+
+.hon2 .pikin .lu1:hover{
+text-decoration: underline;
+}
+
+
+.hon4{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    min-width: 100vw;
+    min-height: auto;
+    background-image: url('img/Clinical\ Trials\ homepage\ lg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.hon4 .pikin2{
+    align-content: center;
+    width: 40rem;
+    height: 30rem;
+    font-size: 1rem;
+    margin-right: 3rem;
+    font-weight: 900;
+    color: white;
+}
+
+.hon4 .pikin2 h1{
+font-size: 4rem;
+}
+
+.hon4 .pikin2 p{
+font-size: 2rem;
+font-weight: 400;
+margin-bottom: 3rem;
+}
+
+.hon4 .sec2{
+    font-size: 1.6rem;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 196, 0);
+    text-decoration: none;
+    padding: 1.5rem 10rem;
+    font-weight: 800;
+    border-radius: 0.5rem;
+    transition: 1.5s ease;
+}
+
+.hon4 .sec2:hover{
+    background-color: rgb(255, 221, 0);
+}
+
+.hon5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    min-width: 100vw;
+    min-height: auto;
+}
+
+.hon5 .box{
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 90%;
+flex-wrap: wrap;
+height: auto;
+gap: 2rem;
+margin-bottom: 3rem;
+}
+
+.hon5 .box h2{
+font-size: 3.5rem;
+margin: 2rem 0;
+font-weight: 800;
+}
+
+.hon5 .chose{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+width: 45rem;
+height: auto;
+border-radius: 2rem;
+background: rgba(188, 182, 182, 0.258);
+}
+
+.hon5 .img2{
+width: 100%;
+height: 30rem;
+}
+
+.hon5 img{
+width: 100%;
+border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.blue1{
+    width: 100%;
+padding: 2rem 3rem;
+text-align: center;
+}
+
+.hon5 .pikin3{
+display: flex;
+justify-content: space-around;
+align-items: start;
+padding: 2rem;
+gap: 1rem;
+flex-direction: column;
+width: 100%;
+height: 25rem;
+}
+
+.hon5 .pikin3 h1{
+font-size: 2rem;
+font-weight: 700;
+text-decoration: underline;
+cursor: pointer;
+}
+
+.hon5 .pikin3 p{
+    font-size: 1.8rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer{
+    width: 100vw;
+    height:auto;
+    background-color: rgb(9, 30, 61);
+}
+
+.logo{
+height: 15rem;
+align-content: center;
+}
+
+.logo img{
+width: 25%;
+}
+
+.foot{
+width: 90%;
+}
+
+.foot1{
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: column;
+height: auto;
+width: 90%;
+}
+
+.foot1 .finish{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column; 
+width: 30rem;
+height: auto;
+}
+
+.foot1 .finish p{
+font-size: 2.5rem;
+border: 1px solid rgb(255, 179, 0);
+margin: 1rem;
+padding: 1rem 3rem;
+text-align: center;
+width: 100%;
+color: #ffff;
+font-weight: 800;
+}
+
+.foot1 .finish .eco{
+display: none;
+}
+
+.foot1 .finish .eco:hover{
+text-decoration: underline;
+}
+
+
+
+.foot2{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: column;
+    height: auto;
+    width: 90%;
+}    
+
+.stay h1{
+color: #ffff;
+font-size: 3rem;
+font-weight: 800;
+}
+
+.stay a{
+display: flex;
+gap: 1rem;
+color: #ffff;
+font-size: 1.5rem;
+font-weight: 200;
+margin: 2rem 0;
+text-decoration: none;
+}
+
+.stay i{
+font-size: 2rem;
+color: rgb(255, 183, 0);
+}
+
+.foot2 .finish i{
+color: rgb(255, 255, 255);
+font-size: 2.5rem;
+background: rgb(8, 35, 74);
+padding: 1rem 1.2rem;
+border-radius: 5rem;
+margin: 0 1rem;
+border: 1px solid rgb(0, 153, 255);
+}
+
+.foot2 .finish{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.foot2 .fish1{
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: column;
+}
+
+.foot2 .finish p{
+color: #ffff;
+font-size: 1.6rem;
+}
+
+.foot2 .finish img{
+margin: 0 1rem;
+}
+
+
+.foot6{
+display: flex;
+justify-content: center;
+align-items: center;
+min-width: 100vw;
+min-height: auto;
+margin: 2rem 0;
+}
+
+.foot6 .stay{
+display: flex;
+justify-content: center;
+align-items: start;
+flex-direction: column;
+gap: 2rem;
+width: 95%;
+height: 30rem;
+border-top: 1px solid rgba(0, 145, 255, 0.466);
+border-bottom: 1px solid rgba(0, 145, 255, 0.466);
+}
+
+.foot6 .stay .finish10{
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+padding-top: 2rem;
+}
+
+.foot6 .stay .finish10 a{
+padding: 0 1rem;
+font-size: 1.6rem;
+font-weight: 400;
+}
+
+.deend{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.308);
+}
+}
