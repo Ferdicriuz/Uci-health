@@ -10,6 +10,7 @@ body {
   font-weight: 500;
   font-style: normal;
   background-color: white;
+  overflow-x: hidden;
 }
 
 html{
@@ -1657,7 +1658,7 @@ font-weight: 400;
 }
 }
 
-@media(max-width:450px){
+@media(max-width:320px){
 * {
     box-sizing: border-box;
     margin: 0;
@@ -1669,7 +1670,8 @@ body {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  background-color: white;
+overflow-x: hidden;
+background-color: white;
 }
 
 html{
@@ -1692,8 +1694,8 @@ font-size: 50%;
     z-index: 1;
 }
 
-.head .img{
-    width: 30%;
+.head img{
+    width: 20rem;
 }
 
 .head .icon{
@@ -1707,7 +1709,7 @@ align-items: center;
 
 .head .fa{
 color: white;
-font-size: 5rem;
+font-size: 3rem;
 padding: 0.5rem;
 margin-right: 2rem;
 }
@@ -1744,7 +1746,7 @@ text-decoration: underline;
 
 .top{
 position: relative;
-top: 80px;
+top: 65px;
 background-color: rgb(255, 200, 0);
 align-content: center;
 min-width: 100vw;
@@ -1771,7 +1773,7 @@ justify-content: center;
 .topbody{
     align-content: end;
     min-width: 100vw;
-    min-height: 60vh;
+    min-height: 80vh;
     background-image: url('img/UCI\ Health\ will\ see\ you\ now\ banner\ lg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -1800,7 +1802,7 @@ font-weight: 200;
 text-decoration: none;
 color: #ffff;
 background-color: rgb(27, 90, 173);
-padding: 2rem 5rem;
+padding: 1rem 5rem;
 font-size: 1.6rem;
 font-weight: 800;
 border-radius: 0.5rem;
@@ -1861,7 +1863,7 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 flex-direction: column;
-width: 50rem;
+width: 40rem;
 height: 70rem;
 border-radius: 2rem;
 background: rgba(255, 255, 255, 0.258);
@@ -1890,14 +1892,14 @@ justify-content: center;
 align-items: start;
 flex-direction: column;
 gap: 2rem;
-width: 50rem;
+width: 40rem;
 height: 25rem;
 }
 
 .hon2 .img1, .hon2 .img2{
 align-content: center;
 height: 50rem;
-width: 50rem;
+width: 40rem;
 }
 
 .hon2 .img1{
@@ -1950,7 +1952,7 @@ text-decoration: underline;
 
 .hon4 .pikin2{
     align-content: center;
-    width: 40rem;
+    width: 30rem;
     height: 30rem;
     font-size: 1rem;
     margin-right: 3rem;
@@ -1973,7 +1975,7 @@ margin-bottom: 3rem;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 196, 0);
     text-decoration: none;
-    padding: 1.5rem 10rem;
+    padding: 1.5rem 5rem;
     font-weight: 800;
     border-radius: 0.5rem;
     transition: 1.5s ease;
@@ -2075,12 +2077,12 @@ footer{
 }
 
 .logo{
-height: 15rem;
+height: 10rem;
 align-content: center;
 }
 
 .logo img{
-width: 25%;
+width: 20rem;
 }
 
 .foot{
@@ -2094,6 +2096,7 @@ align-items: center;
 flex-direction: column;
 height: auto;
 width: 90%;
+margin-bottom: 2rem;
 }
 
 .foot1 .finish{
@@ -2158,7 +2161,7 @@ color: rgb(255, 183, 0);
 
 .foot2 .finish i{
 color: rgb(255, 255, 255);
-font-size: 2.5rem;
+font-size: 2rem;
 background: rgb(8, 35, 74);
 padding: 1rem 1.2rem;
 border-radius: 5rem;
